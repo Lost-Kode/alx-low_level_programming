@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Print a string
- * Description: use printf
- * Return: 0
+*main - Prints "with proper grammar, but the ouptu is a piece of art,"
+*Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
-	reture(0);
+	return (0);
 }
