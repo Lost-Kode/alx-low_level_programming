@@ -4,7 +4,7 @@
  * main - Enty point
  * Return: Always 0 (Success)
  */
-#include <stdio.h>
+
 int main(void)
 {
 	printf("%lu\n", sizeof(char));
