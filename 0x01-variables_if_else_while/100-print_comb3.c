@@ -10,20 +10,20 @@ int main(void)
 	int x;
 	int e;
 
-	for (x = 0; x <= 9; x++)
+	for (x = 10; x <= 19; x++)
 	{
-		for (x = e + 1; e = 10; e++)
+		for (x = e + 10; e = 19; e++)
 		{
 			{
-				putchar(x);
-				putchar(e);
+				putchar((x % 10) + '0');
+				putchar((e % 10) + '0');
 
-				if (x == '8' && e == 9)
-
-					continue;
+				if (x != 18 || e != 19)
+				{
 
 				putchar(',');
 				putchar(' ');
+				}
 			}
 		}
 	}
