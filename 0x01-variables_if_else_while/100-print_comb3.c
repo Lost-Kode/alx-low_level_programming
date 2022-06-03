@@ -10,15 +10,16 @@ int main(void)
 	int x;
 	int e;
 
-	for (x = 10; x <= 19; x++)
+	for (x = '0'; x <= '9'; x++)
 	{
-		for (x = e + 10; e = 19; e++)
+		for (e = '0'; e <= '9'; e++)
 		{
+			if (x < e)
 			{
-				putchar((x % 10) + '0');
-				putchar((e % 10) + '0');
+				putchar(x);
+				putchar(e);
 
-				if (x != 18 || e != 19)
+				if (x != '8' || (e == '8' && e != '9'))
 				{
 
 				putchar(',');
