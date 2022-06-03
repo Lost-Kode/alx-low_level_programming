@@ -8,17 +8,23 @@
 int main(void)
 {
 	int x;
+	int e;
 
-	for (tens = 0; tens <= 9; tens++)
+	for (x = 0; x <= 9; x++)
 	{
-		for (ones = tens + 1; ones <= 9; ones++)
+		for (e = '0'; e <= '9'; e++)
 		{
-			putchar(tens + '0');
-			putchar(ones + '0');
-			if (tens < 8)
+			if (x < e)
 			{
+				putchar(x);
+				putchar(e);
+
+				if (x != '8' || (x == '8' && e != '9'))
+
+				{
 				putchar(',');
 				putchar(' ');
+				}
 			}
 		}
 	}
