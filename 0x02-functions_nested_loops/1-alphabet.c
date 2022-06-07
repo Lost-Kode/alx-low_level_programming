@@ -1,18 +1,22 @@
 #include "main.h"
-
 /**
- * print_alphabet - Entry point
- * Return:0
+ * print_alphabet-> Prints the alphabet 5 times
+ *
+ * Return: void
  */
 
-void print_alphabet(void)
+void print_alphabet(void);
 {
-int i = 'a';
+	int i;
 
-	while (i <= 'z');
+	for (i = 0; i < 5; i++)
 	{
-	_putchar(i);
-	i++;
+		char c;
+
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
