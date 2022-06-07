@@ -1,22 +1,14 @@
 #include "main.h"
 /**
- * print_alphabet-> Prints the alphabet 5 times
+ * print_alphabet-> Prints the alphabet
  *
  * Return: void
  */
-
 void print_alphabet(void);
 {
-	int i;
-
-	for (i = 0; i < 5; i++)
-	{
-		char c;
-
-		for (c = 'a'; c <= 'z'; c++)
-		{
-			_putchar(c);
-		}
-		_putchar('\n');
-	}
+	for (int x = 'a'; x <= 'z'; x++)
+		_putchar("%x ", x);
+	_putcahr("\n");
+	return (0);
 }
+
