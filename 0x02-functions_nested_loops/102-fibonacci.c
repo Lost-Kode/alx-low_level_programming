@@ -12,9 +12,8 @@ int main(void)
 	fib1 = 1;
 	fib2 = 2;
 	fib3 = 3;
-	n = 50;
 
-	for (x = 0; x < n; x++)
+	for (x = 0; x < 50; x++)
 	{
 		printf("%ld", fib3);
 		fib1 = fib2;
