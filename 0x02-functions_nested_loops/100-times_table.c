@@ -27,7 +27,7 @@ void print_times_table(int n)
 					_putchar(32);
 					_putchar(x + 48);
 				}
-				else if (op <= 99)
+				else if (x <= 99)
 				{
 					_putchar(32);
 					_putchar((x / 10) + 48);
