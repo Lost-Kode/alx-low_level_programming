@@ -24,6 +24,6 @@ int main(void)
 			l = l + s;
 		}
 	}
-	printf("%\n", l);
+	printf("%i\n", l);
 	return (0);
 }
