@@ -20,7 +20,7 @@ int main(void)
 	{
 		if (!(e % 3 == 0))
 		{
-			s = 5 * v;
+			s = 5 * e;
 			l = l + s;
 		}
 	}
